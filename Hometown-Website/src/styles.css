@@ -17,6 +17,10 @@ h1 {
     font-size: 5rem;
     color: #1F7A8C;
     margin: 0;
+    position: absolute;
+    top: 1%;
+    left: 50%;
+    transform: translateX(-50%);
 }
 #firstSection h2 {
         background-color: #FFFFFF;
@@ -32,6 +36,9 @@ h1 {
     border-radius: 5% 5% 23% 23%;  
     padding: 5px 60px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+#title h2 {
+    color: #1F7A8C;
 }
 #firstSection {
     text-align: center;
